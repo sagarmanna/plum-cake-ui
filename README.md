@@ -1,70 +1,83 @@
-# Getting Started with Create React App
+# 🍰 Plum Brownie Cake – Product Detail Page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Live Demo:** [https://plumcakeui.netlify.app/](https://plumcakeui.netlify.app/)
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Project Overview
 
-### `npm start`
+**Option A: Single Product Page**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This project is a **responsive Product Detail Page** built for a dessert item called **Plum Brownie Cake**. The UI is designed to be clean, modern, and mobile-first, similar to real-world food delivery or bakery applications.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## ✨ Features
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* 📸 Product image with zoom preview
+* 🧁 Product title and price (**₹99**)
+* 📝 Realistic product description
+* ➕➖ Quantity selector
+* 🛒 Add to Cart functionality
+* 🌙 Light / Dark mode support
+* 📱 Fully responsive (perfect stacked view on mobile)
+* 🔔 Toast notification on add to cart
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 📱 Mobile-First Design
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The UI is optimized primarily for **mobile screens**:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Stacked layout
+* Sticky header
+* Fixed bottom action bar
+* Large touch-friendly buttons
 
-### `npm run eject`
+Also adapts well to tablets and desktops.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🛠️ Tech Stack
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+* **React.js**
+* **Tailwind CSS**
+* **JavaScript (ES6)**
+* **Netlify** (Deployment)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚀 Deployment
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project is deployed on **Netlify** and automatically updates on every push to the `main` branch.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+🔗 **Live URL:** [https://plumcakeui.netlify.app/](https://plumcakeui.netlify.app/)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 📖 How to Run Locally
 
-### Analyzing the Bundle Size
+```bash
+npm install
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+---
 
-### Making a Progressive Web App
+## 👨‍💻 Author
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+**Sagar Manna**
+GitHub: [https://github.com/sagarmanna](https://github.com/sagarmanna)
 
-### Advanced Configuration
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## ⭐ Notes
 
-### Deployment
+This project was created as a **UI-focused frontend assignment** emphasizing:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+* Clean component structure
+* Realistic UX
+* Mobile responsiveness
+* Modern styling patterns
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
